@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://bkktm5gdpy2af"]
+
+[ext_resource type="Script" path="res://scenes/restart_button.gd" id="1_puj58"]
+
+[node name="RestartButton" type="Button"]
+offset_left = 325.0
+offset_top = 16.0
+offset_right = 415.0
+offset_bottom = 122.0
+theme_override_font_sizes/font_size = 30
+text = "🔃"
+script = ExtResource("1_puj58")
+
+[connection signal="pressed" from="." to="." method="_on_pressed"]
